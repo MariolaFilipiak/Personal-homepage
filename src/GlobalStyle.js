@@ -13,5 +13,6 @@ body{
   max-width: 1216px;
   margin: 0 auto;
   background-color: rgb(251, 251, 254);
+  font-family: 'Inter';
 }
   `;
