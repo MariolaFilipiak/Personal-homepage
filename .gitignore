@@ -21,3 +21,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+src/Skills/styled.js
+src/Skills/MySkills.js
+.gitignore
+src/Skills/index.js
+src/Portfolio/index.js
+src/Skills/index.js
+src/Skills/index.js
+src/Footer/styled.js
+src/Portfolio/index.js
+src/Skills/styled.js
+src/Skills/MySkills.js
