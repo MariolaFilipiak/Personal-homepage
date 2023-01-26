@@ -1,9 +1,9 @@
 
-import Footer from './Footer';
-import Header from './Header';
-import NextSklills from './NextSkills';
-import Portfolio from './Portfolio';
-import Skills from './Skills';
+import {Footer} from "./features/app/Footer"
+import {Header} from './features/app/Header';
+import {NextSklills} from './features/app/NextSkills';
+import {Portfolio} from './features/app/Portfolio';
+import {Skills} from './features/app/Skills';
 
 function App() {
   return (
