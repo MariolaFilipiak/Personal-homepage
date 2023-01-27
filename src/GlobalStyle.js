@@ -14,5 +14,6 @@ body{
   margin: 0 auto;
   background-color: rgb(251, 251, 254);
   font-family: 'Inter';
+  word-break: break-word;
 }
   `;
