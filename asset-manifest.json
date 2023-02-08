@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/Personal-homepage/static/js/main.422dc5dd.js",
+    "static/media/foto.jpg": "/Personal-homepage/static/media/foto.6b3f3eadf8a03b745b8b.jpg",
+    "static/media/hireMe.svg": "/Personal-homepage/static/media/hireMe.26acd083a81263422cf63acc6f61a00d.svg",
+    "static/media/github.svg": "/Personal-homepage/static/media/github.a7ab05537b0b91a9e534db6e022e4d57.svg",
+    "static/media/linkedin.svg": "/Personal-homepage/static/media/linkedin.c7edb0f3cd867a03828551d841262eb6.svg",
+    "index.html": "/Personal-homepage/index.html",
+    "static/media/facebook.svg": "/Personal-homepage/static/media/facebook.f960bc1abc350bc78d5639481ff4d807.svg",
+    "static/media/loading.svg": "/Personal-homepage/static/media/loading.63eca6f7e75e22b3e4d6c5d77764aeda.svg",
+    "main.422dc5dd.js.map": "/Personal-homepage/static/js/main.422dc5dd.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.422dc5dd.js"
+  ]
+}
