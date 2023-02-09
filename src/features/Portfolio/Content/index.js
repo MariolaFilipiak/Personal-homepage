@@ -17,3 +17,4 @@ export const Content = ({ status, repositories }) => {
       throw new Error(`incorrect status: ${status}`);
   }
 };
+

@@ -17,7 +17,7 @@ export const Portfolio = () => {
 
   useEffect(() => {
     dispatch(fetchRepositories());
-  }, [dispatch]);
+  },[dispatch]);
 
   return (
     <>

@@ -1,5 +1,5 @@
 import { delay, call, put, takeLatest } from "redux-saga/effects";
-import { getRepositories } from "./Repository/getRepositories";
+import { getRepositories } from "../getRepositories";
 import {
   fetchRepositories,
   fetchRepositoriesError,
