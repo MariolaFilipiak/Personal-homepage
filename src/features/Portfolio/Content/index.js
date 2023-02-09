@@ -1,8 +1,8 @@
 import { Error } from "../Error";
 import { Loading } from "../Loading";
-import { Repositories } from "../Repository";
+import { Repos } from "../Repos";
 
-export const Content = ({ status, repositories }) => {
+export const Content = ({ status, repos }) => {
   switch (status) {
     case "initial":
       return null;
@@ -11,7 +11,7 @@ export const Content = ({ status, repositories }) => {
     case "error":
       return <Error />;
     case "success":
-      return <Repositories repositories={repositories} />;
+      return <Repos repos={repos} />;
 
     default:
       throw new Error(`incorrect status: ${status}`);

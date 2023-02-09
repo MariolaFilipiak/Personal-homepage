@@ -1,21 +1,21 @@
 import { delay, call, put, takeLatest } from "redux-saga/effects";
-import { getRepositories } from "../getRepositories";
+import { getRepos } from "../getRepos";
 import {
-  fetchRepositories,
-  fetchRepositoriesError,
-  fetchRepositoriesSuccess,
+  fetchRepos,
+  fetchReposError,
+  fetchReposSuccess,
 } from "./repoSlice";
 
-function* fetchRepositoriesHandler() {
+function* fetchReposHandler() {
   try {
     yield delay(2000);
-    const repositories = yield call(getRepositories);
-    yield put(fetchRepositoriesSuccess(repositories));
+    const repos = yield call(getRepos);
+    yield put(fetchReposSuccess(repos));
   } catch (error) {
-    yield put(fetchRepositoriesError());
+    yield put(fetchReposError());
   }
 }
 
 export function* repoSaga() {
-  yield takeLatest(fetchRepositories.type, fetchRepositoriesHandler);
+  yield takeLatest(fetchRepos.type, fetchReposHandler);
 }

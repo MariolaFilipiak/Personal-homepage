@@ -8,11 +8,11 @@ import {
   Wrapper as Wrapper,
 } from "./styled";
 
-export const Repositories = ({ repositories }) => {
+export const Repos = ({ repos }) => {
   return (
     <Wrapper>
 
-      {repositories.map(({ id, name, description, html_url, homepage }) => (
+      {repos.map(({ id, name, description, html_url, homepage }) => (
         <Tile key={id}>
           <Title>{name}</Title>
           <Description>{description}</Description>

@@ -1,38 +1,38 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-export const repositoriesSlice = createSlice({
-  name: "repositories",
+export const reposSlice = createSlice({
+  name: "repos",
   initialState: {
-    repositories: null,
+    repos: null,
     status: "initial",
   },
   reducers: {
-    fetchRepositories: () => ({
-      repositories: null,
+    fetchRepos: () => ({
+      repos: null,
       status: "loading",
     }),
-    fetchRepositoriesSuccess: (_, { payload: repositories }) => ({
-      repositories,
+    fetchReposSuccess: (_, { payload: repos }) => ({
+      repos,
       status: "success",
     }),
-    fetchRepositoriesError: () => ({
-      repositories: null,
+    fetchReposError: () => ({
+      repos: null,
       status: "error",
     }),
   },
 });
 
 export const {
-  fetchRepositoriesSuccess,
-  fetchRepositories,
-  fetchRepositoriesError,
-} = repositoriesSlice.actions;
+  fetchReposSuccess,
+  fetchRepos,
+  fetchReposError,
+} = reposSlice.actions;
 
-const selectRepositoriesState = (state) => state.repositories;
+const selectReposState = (state) => state.repos;
 
-export const selectRepositories = (state) =>
-  selectRepositoriesState(state).repositories;
-export const selectRepositoriesStatus = (state) =>
-  selectRepositoriesState(state).status;
+export const selectRepos = (state) =>
+  selectReposState(state).repos;
+export const selectReposStatus = (state) =>
+  selectReposState(state).status;
 
-export default repositoriesSlice.reducer;
+export default reposSlice.reducer;

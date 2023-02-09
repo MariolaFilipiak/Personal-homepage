@@ -3,20 +3,20 @@ import { useDispatch, useSelector } from "react-redux";
 import { Container, Icon, Text, Title } from "./styled";
 import { ReactComponent as Github } from "./github.svg";
 import {
-  fetchRepositories,
-  selectRepositories,
-  selectRepositoriesStatus,
+  fetchRepos,
+  selectRepos,
+  selectReposStatus,
 } from "../Portfolio/repoSlice";
 import { Content } from "./Content";
 
 export const Portfolio = () => {
   const dispatch = useDispatch();
 
-  const repoStatus = useSelector(selectRepositoriesStatus);
-  const repositories = useSelector(selectRepositories);
+  const reposStatus = useSelector(selectReposStatus);
+  const repos = useSelector(selectRepos);
 
   useEffect(() => {
-    dispatch(fetchRepositories());
+    dispatch(fetchRepos());
   },[dispatch]);
 
   return (
@@ -28,7 +28,7 @@ export const Portfolio = () => {
         <Title>Portfolio</Title>
         <Text>My recent projects</Text>
       </Container>
-      <Content status={repoStatus} repositories={repositories} />
+      <Content status={reposStatus} repos={repos} />
     </>
   );
 };
