@@ -5,10 +5,10 @@ import {
   fetchReposError,
   fetchReposSuccess,
 } from "./repoSlice";
-
+const LoadingDelay = 2_000;
 function* fetchReposHandler() {
   try {
-    yield delay(2000);
+    yield delay(LoadingDelay);
     const repos = yield call(getRepos);
     yield put(fetchReposSuccess(repos));
   } catch (error) {
