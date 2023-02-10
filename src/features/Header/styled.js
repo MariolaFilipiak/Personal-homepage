@@ -61,7 +61,19 @@ export const HireMeLink = styled.a`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border-radius: 4px;
   font-weight: 600;
   transition: 0.3s;
+  border: 1px solid rgba(209, 213, 218, 0.3);
+border-radius: 4px;
+cursor: pointer;
+&:hover, &:active {
+    box-shadow: 2px -2px 0px 
+    -2px 2px 0px 
+    2px 2px 0px 
+      -2px -2px 0px 
+  }
+  @media (max-width:  {
+    font-size: 18px;
+    line-height: 22px;
+  }
 `;
