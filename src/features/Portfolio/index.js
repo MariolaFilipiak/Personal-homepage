@@ -1,13 +1,13 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Container, Icon, Text, Title } from "./styled";
+import {Content} from "./Content"
 import { ReactComponent as Github } from "./github.svg";
 import {
   fetchRepos,
   selectRepos,
   selectReposStatus,
 } from "../Portfolio/repoSlice";
-import { Content } from "./Content";
 
 export const Portfolio = () => {
   const dispatch = useDispatch();

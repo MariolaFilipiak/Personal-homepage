@@ -1,5 +1,5 @@
 import { delay, call, put, takeLatest } from "redux-saga/effects";
-import { getRepos } from "../getRepos";
+import  {getGithubRepos}  from "../getGithubRepos";
 import {
   fetchRepos,
   fetchReposError,
@@ -9,7 +9,7 @@ const LoadingDelay = 2_000;
 function* fetchReposHandler() {
   try {
     yield delay(LoadingDelay);
-    const repos = yield call(getRepos);
+    const repos = yield call(getGithubRepos);
     yield put(fetchReposSuccess(repos));
   } catch (error) {
     yield put(fetchReposError());

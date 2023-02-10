@@ -2,6 +2,7 @@ import { Error } from "../Error";
 import { Loading } from "../Loading";
 import { Repos } from "../Repos";
 
+
 export const Content = ({ status, repos }) => {
   switch (status) {
     case "initial":

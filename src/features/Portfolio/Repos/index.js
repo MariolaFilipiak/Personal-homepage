@@ -4,17 +4,17 @@ import {
   Description,
   Links,
   Link,
-  Title,
+  Name,
   Wrapper as Wrapper,
 } from "./styled";
 
 export const Repos = ({ repos }) => {
   return (
     <Wrapper>
-
       {repos.map(({ id, name, description, html_url, homepage }) => (
+        
         <Tile key={id}>
-          <Title>{name}</Title>
+          <Name>{name}</Name>
           <Description>{description}</Description>
           <Links>
             <Text>Demo:</Text>
