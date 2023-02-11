@@ -13,6 +13,20 @@ export const Email = styled.a`
   margin-top: 24px;
   margin-bottom: 24px;
   color: #252525;
+
+  &:hover {
+    color: #2517EB;
+  }
+  @media (max-width: 991px) {
+    font-size: 28px;
+  }
+  @media (max-width: 767px) {
+    font-size: 24px;
+  }
+  @media (max-width:467px) {
+    margin: 12px 0;
+    font-size: 18px;
+  }
 `;
 
 export const Paragraph = styled.p`

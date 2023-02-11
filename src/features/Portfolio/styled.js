@@ -5,6 +5,13 @@ export const StyledPortfolio = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 32px;
+
+  @media (max-width: 991px) {
+    margin-bottom: 72px;
+  }
+  @media (max-width: 467px) {
+    margin-bottom: 48px;
+  }
 `;
 
 export const Title = styled.h2`

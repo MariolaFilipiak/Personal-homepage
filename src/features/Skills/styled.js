@@ -20,10 +20,20 @@ export const ListSkills = styled.ul`
   padding: 0;
   margin: 32px 0 0 0;
   color: #6e7e91;
+
+  @media (max-width: 991px) {
+    display:grid ;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 776px) {
+    display:flex ;
+    flex-direction: column;
+    margin:14px;
+  }
 `;
 
 export const Title = styled.h2`
-  border-bottom: 1px solid;
+  border-bottom: 1px solid rgba(209, 213, 218, 0.3);
   padding-bottom: 16px;
   font-weight: 900;
   font-size: 30px;

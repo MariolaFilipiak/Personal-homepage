@@ -4,18 +4,51 @@ export const Container = styled.header`
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-rows: 1fr auto;
-  margin-bottom: 65px;
+
+  @media (max-width: 776px) {
+    grid-template-columns: 2fr;
+    grid-gap: 48px;
+  }
+  @media (max-width: 447px) {
+    grid-template-columns: 1fr;
+    grid-gap: 12px;
+  }
+  @media (max-width: 991px) {
+    grid-template-columns: 2fr;
+    grid-gap: 48px;
+  }
 `;
 
 export const Wrapper = styled.div`
-  margin-left: 66px;
+  @media (max-width: 991px) {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  @media (max-width: 467px) {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
 `;
 
 export const MyImage = styled.img`
-  width: 390px;
-  height: 390px;
+  width: 60vw;
+  max-width: 390px;
+  max-height: 390px;
   border-radius: 50%;
-  margin-top: 115px;
+  margin-right: 66px;
+
+  @media (max-width: 991px) {
+    margin-left: 10px;
+    margin: 0;
+  }
+  @media (max-width: 767px) {
+    margin-left: 10px;
+    margin: 0;
+  }
+  @media (max-width: 467px) {
+    margin-left: 10px;
+    margin: 0;
+  }
 `;
 
 export const Info = styled.p`
@@ -25,6 +58,14 @@ export const Info = styled.p`
   color: #6e7e91;
   line-height: 1.4;
   font-weight: 400;
+
+  @media (max-width: 767px) {
+    margin: 16px 0 24px;
+    font-size: 17px;
+  }
+  @media (max-width: 467px) {
+    margin: 16px 0 24px;
+  }
 `;
 
 export const Name = styled.h1`
@@ -32,48 +73,50 @@ export const Name = styled.h1`
   font-weight: 900;
   margin-top: 12px;
   margin-bottom: 35px;
-  line-height: 46px;
   letter-spacing: 0.05em;
   color: #252525;
+
+  @media (max-width: 467px) {
+    font-size: 30px;
+  }
+  @media (max-width: 767px) {
+    font-size: 30px;
+  }
 `;
 
 export const Intro = styled.p`
   font-size: 12px;
   text-transform: uppercase;
-  margin-bottom: 12px;
-  margin-top: 115px;
-  word-break: break-all;
-  max-width: 630px;
-  line-height: 1.3;
   color: #6e7e91;
-  margin-top: 183px;
+  padding-top: 64px;
   font-weight: 700;
-  font-style: normal;
-`;
 
+  @media (max-width: 467px) {
+    margin-top: 20px;
+  }
+  @media (max-width: 767px) {
+    margin-top: 20px;
+  }
+  @media (max-width: 991px) {
+    margin-top: 20px;
+  }
+`;
 export const HireMeLink = styled.a`
   width: 154px;
   height: 49px;
-  margin-top: 32px;
   margin-bottom: 146px;
-  background-color: rgb(3, 102, 214);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
-  transition: 0.3s;
-  border: 1px solid rgba(209, 213, 218, 0.3);
-border-radius: 4px;
-cursor: pointer;
-&:hover, &:active {
-    box-shadow: 2px -2px 0px 
-    -2px 2px 0px 
-    2px 2px 0px 
-      -2px -2px 0px 
+  display: inline-flex;
+  cursor: pointer;
+  &:hover {
+    border: 2px solid rgba(3, 102, 214, 0.2);
   }
-  @media (max-width:  {
-    font-size: 18px;
-    line-height: 22px;
+  @media (max-width: 467px) {
+    margin-bottom: 10px;
+  }
+  @media (max-width: 767px) {
+    margin-bottom: 10px;
+  }
+  @media (max-width: 991px) {
+    margin-bottom: 15px;
   }
 `;
