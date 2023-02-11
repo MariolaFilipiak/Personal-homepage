@@ -14,10 +14,12 @@ export const Item = styled.li`
 `;
 
 export const Link = styled.a`
-  transition: color 0.3s;
+  transition: color 0.3s ease 0s;
+  cursor: pointer;
+  color: black;
 
   &:hover {
-    color: 555;
+    color: #2517eb;
   }
 `;
 
