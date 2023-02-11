@@ -1,1 +1,1 @@
-export const nextSkills = ["Node.js", "TypeScript", "Ux/UI design"];
+export const nextSkills = ["Node.js", "TypeScript", "UX/UI design"];

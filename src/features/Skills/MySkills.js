@@ -1,9 +1,9 @@
 export const skills = [
   "HTML",
   "CSS",
-  "CSS Flexbox",
-  "CSS Grid",
-  "CSS BEM convention",
+  "Flex",
+  "Grid",
+  "BEM ",
   "Git",
   "Github Pull Requests & Review",
   "JavaScript:ES6+",
