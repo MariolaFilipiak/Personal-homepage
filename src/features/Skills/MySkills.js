@@ -5,7 +5,7 @@ export const skills = [
   "Grid",
   "BEM ",
   "Git",
-  "Github Pull Requests & Review",
+  "Github",
   "JavaScript:ES6+",
   "React",
   "React Hooks",
@@ -13,4 +13,7 @@ export const skills = [
   "Redux",
   "Redux-Saga",
   "Promises,Async/Await",
+  "Fetch",
+  "Axios",
+  "Photoshop",
 ];
