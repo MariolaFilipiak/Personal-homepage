@@ -1,6 +1,31 @@
-# Demo
+# Description
+This is my Personal online CV. Here you will find my skills and information about what I still want to learn in the future 
 
-https://mariolafilipiak.github.io/Personal-homepage/
+## Demo
+
+[Personal-homepage](https://mariolafilipiak.github.io/Personal-homepage/)
+
+
+## Technologies used
+
+HTML
+
+CSS
+
+Normalize
+
+BEM
+
+Grid
+
+Flex
+
+React
+
+Redux
+
+Redux-Saga
+
 
 # Getting Started with Create React App
 
