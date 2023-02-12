@@ -23,17 +23,17 @@ export const NextSkills = styled.ul`
   color: #6e7e91;
 
   @media (max-width: 991px) {
-    display:grid ;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
   @media (max-width: 776px) {
-    display:flex ;
+    display: flex;
     flex-direction: column;
   }
 `;
 
 export const Title = styled.h2`
- border-bottom: 1px solid rgba(209, 213, 218, 0.3);
+  border-bottom: 1px solid rgba(209, 213, 218, 0.3);
   padding-bottom: 16px;
   font-weight: 900;
   font-size: 30px;

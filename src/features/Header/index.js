@@ -18,8 +18,9 @@ export const Header = () => {
         <Intro>This is</Intro>
         <Name>Mariola Filipiak</Name>
         <Info>
-          💻 👩🏻 Frontend is something new for me,<br/> but I'm learning fast and I'm
-          looking for my first job as a Frontend developer.
+          💻 👩🏻 Frontend is something new for me,
+          <br /> but I'm learning fast and I'm looking for my first job as a
+          Frontend developer.
         </Info>
         <HireMeLink href={`mailto:${email}`} title={email}>
           <HireMe />

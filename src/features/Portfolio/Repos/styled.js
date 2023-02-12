@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.ul`
+export const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 32px;
@@ -9,19 +9,17 @@ export const Wrapper = styled.ul`
   list-style: none;
 
   @media (max-width: 991px) {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: auto;
+    gap: 24px;
+    justify-content: center;
   }
-
 `;
-export const Tile = styled.li`
+export const Tile = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 56px;
-  margin: 0;
   max-width: 592px;
+  padding: 56px;
   border: 6px solid rgba(209, 213, 218, 0.3);
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
     0px 16px 58px rgba(9, 10, 51, 0.03);
@@ -29,6 +27,9 @@ export const Tile = styled.li`
 
   &:hover {
     border: 6px solid rgba(3, 102, 214, 0.2);
+  }
+  @media (max-width: 991px) {
+    padding: 40px;
   }
 `;
 export const Name = styled.h3`

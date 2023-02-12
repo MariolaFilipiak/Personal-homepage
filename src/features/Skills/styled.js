@@ -22,13 +22,13 @@ export const ListSkills = styled.ul`
   color: #6e7e91;
 
   @media (max-width: 991px) {
-    display:grid ;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
   @media (max-width: 776px) {
-    display:flex ;
+    display: flex;
     flex-direction: column;
-    margin:14px;
+    margin: 14px;
   }
 `;
 

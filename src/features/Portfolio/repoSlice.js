@@ -22,17 +22,12 @@ export const reposSlice = createSlice({
   },
 });
 
-export const {
-  fetchReposSuccess,
-  fetchRepos,
-  fetchReposError,
-} = reposSlice.actions;
+export const { fetchReposSuccess, fetchRepos, fetchReposError } =
+  reposSlice.actions;
 
 const selectReposState = (state) => state.repos;
 
-export const selectRepos = (state) =>
-  selectReposState(state).repos;
-export const selectReposStatus = (state) =>
-  selectReposState(state).status;
+export const selectRepos = (state) => selectReposState(state).repos;
+export const selectReposStatus = (state) => selectReposState(state).status;
 
 export default reposSlice.reducer;

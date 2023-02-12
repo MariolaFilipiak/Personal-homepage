@@ -1,10 +1,6 @@
 import { delay, call, put, takeLatest } from "redux-saga/effects";
-import  {getGithubRepos}  from "../getGithubRepos";
-import {
-  fetchRepos,
-  fetchReposError,
-  fetchReposSuccess,
-} from "./repoSlice";
+import { getGithubRepos } from "../getGithubRepos";
+import { fetchRepos, fetchReposError, fetchReposSuccess } from "./repoSlice";
 const LoadingDelay = 2_000;
 function* fetchReposHandler() {
   try {

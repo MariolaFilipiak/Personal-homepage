@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Container, Icon, Text, Title } from "./styled";
-import {Content} from "./Content"
+import { Content } from "./Content";
 import { ReactComponent as Github } from "./github.svg";
 import {
   fetchRepos,
@@ -17,7 +17,7 @@ export const Portfolio = () => {
 
   useEffect(() => {
     dispatch(fetchRepos());
-  },[dispatch]);
+  }, [dispatch]);
 
   return (
     <>
