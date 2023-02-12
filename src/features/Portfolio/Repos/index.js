@@ -13,7 +13,7 @@ export const Repos = ({ repos }) => {
   return (
     <Wrapper>
       {repos.map(
-        ({ id, name, description, html_url, homepage, login, owner }) => (
+        ({ id, name, description, html_url,owner }) => (
           <Tile key={id}>
             <Name>{name}</Name>
             <Description>{description}</Description>
