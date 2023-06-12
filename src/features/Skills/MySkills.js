@@ -16,4 +16,9 @@ export const skills = [
   "Fetch",
   "Axios",
   "Photoshop",
+  "TypeScript",
+  "Bootstap",
+  "Scrum",
+  "WordPress",
+  "UX/UI"
 ];

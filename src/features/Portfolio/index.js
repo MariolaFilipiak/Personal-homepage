@@ -11,7 +11,6 @@ import {
 
 export const Portfolio = () => {
   const dispatch = useDispatch();
-
   const reposStatus = useSelector(selectReposStatus);
   const repos = useSelector(selectRepos);
 

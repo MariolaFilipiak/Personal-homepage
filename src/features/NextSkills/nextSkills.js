@@ -1,1 +1,1 @@
-export const nextSkills = ["Node.js", "TypeScript", "UX/UI"];
+export const nextSkills = ["Node.js", "React query"];
