@@ -20,7 +20,7 @@ export const Title = styled.h2`
   line-height: 36px;
   text-align: center;
   letter-spacing: 0.05em;
-  color: #252525;
+  color: #6e7e91;
   margin: 0 auto;
 `;
 export const Text = styled.p`
@@ -29,6 +29,7 @@ export const Text = styled.p`
   line-height: 1.4;
   letter-spacing: 0.05em;
   margin: 8px 0px 0px;
+  color:#6e7e91;
 `;
 
 export const Icon = styled.div`

@@ -12,7 +12,7 @@ html {
 body{
   max-width: 1216px;
   margin: 0 auto;
-  background-color: rgb(251, 251, 254);
+  background-color: #1e1e1e;
   font-family: 'Inter';
   word-break: break-word;
 }

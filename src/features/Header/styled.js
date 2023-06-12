@@ -74,7 +74,7 @@ export const Name = styled.h1`
   margin-top: 12px;
   margin-bottom: 35px;
   letter-spacing: 0.05em;
-  color: #252525;
+  color: #6e7e91;
 
   @media (max-width: 467px) {
     font-size: 30px;

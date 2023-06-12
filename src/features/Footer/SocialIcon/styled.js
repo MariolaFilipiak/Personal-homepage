@@ -26,4 +26,8 @@ export const Link = styled.a`
 export const styleIcon = (Icon) => styled(Icon)`
   height: 47px;
   width: 47px;
+  color: #6e7e91;
+  &:hover {
+    color: #2517eb;
+  }
 `;

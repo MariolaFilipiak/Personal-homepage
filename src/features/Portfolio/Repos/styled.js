@@ -43,6 +43,9 @@ export const Description = styled.p`
   margin-top: 24px;
   line-height: 1.4;
   color: #6e7e91;
+  letter-spacing: 0.05em;
+font-size: 18px;
+
 `;
 
 export const Link = styled.a`

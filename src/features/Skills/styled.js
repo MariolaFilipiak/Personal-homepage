@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   padding: 32px;
-  background-color: rgb(255, 255, 255);
-  background: #ffffff;
+  background-color: #1e1e1e;
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
     0px 16px 58px rgba(9, 10, 51, 0.03);
   border-radius: 4px;
@@ -39,7 +38,7 @@ export const Title = styled.h2`
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 0.05em;
-  color: #252525;
+  color: #6e7e91;
 `;
 
 export const ListItem = styled.li`
