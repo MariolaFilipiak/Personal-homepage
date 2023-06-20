@@ -1,17 +1,17 @@
-import { Container } from "./features/Container";
-import { Footer } from "./features/Footer";
-import { Header } from "./features/Header";
-import { NextSklills } from "./features/NextSkills";
-import { Portfolio } from "./features/Portfolio";
-import { Skills } from "./features/Skills";
+import About from "./features/About";
+import { Container } from "./common/Container";
+import { Footer } from "./common/Footer";
+import { Header} from "./features/Header";
+import { Skills } from "./common/Skills";
+import { Projects } from "./features/Portfolio";
 
 function PersonalHomepage() {
   return (
     <Container>
       <Header />
       <Skills />
-      <NextSklills />
-      <Portfolio />
+      <About />
+      <Projects />
       <Footer />
     </Container>
   );
