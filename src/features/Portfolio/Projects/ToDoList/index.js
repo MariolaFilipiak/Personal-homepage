@@ -1,6 +1,7 @@
 import {
   Arrow,
   Box,
+  ButtonsBox,
   Container,
   Header,
   Images,
@@ -16,6 +17,7 @@ import { Name } from "../../../../common/Components/Title/styled";
 import { Projects } from "../..";
 import { Footer } from "../../../../common/Footer";
 import secondlife from "../../../Portfolio/images/todolist.png";
+import { Buttons } from "../../../../common/Components/Buttons";
 const ToDoList = () => {
   return (
     <Container>
@@ -43,6 +45,24 @@ const ToDoList = () => {
             My to-do list . You can add tasks , delated tasks, show and hide
             tasks and download sample tasks.
           </Text>
+          <ButtonsBox>
+            <Buttons
+              href="https://mariolafilipiak.github.io/To-do-list/"
+              alt="to-do-list-link-demo"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </Buttons>
+            <Buttons
+              href="https://github.com/MariolaFilipiak/To-do-list"
+              alt="to-do-list-link-code"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Code
+            </Buttons>
+          </ButtonsBox>
         </Box>
       </Wrapper>
       <OtherProjectsBox>

@@ -2,6 +2,7 @@ import React from "react";
 import {
   Arrow,
   Box,
+  ButtonsBox,
   Container,
   Header,
   Images,
@@ -19,6 +20,7 @@ import { Projects } from "../..";
 import { Footer } from "../../../../common/Footer";
 import mockup from "./mockup (2).png";
 import secondlife from "./thesecondlife.png";
+import { Buttons } from "../../../../common/Components/Buttons";
 const TheSecondLife = () => {
   return (
     <Container>
@@ -45,6 +47,24 @@ const TheSecondLife = () => {
             Easy online shop with Bootstrap and TypeScript. I created category
             products, a cart, and details products.
           </Text>
+          <ButtonsBox>
+            <Buttons
+              href="https://mariolafilipiak.github.io/The-second-life/"
+              alt="The-second-life-link-demo"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </Buttons>
+            <Buttons
+              href="https://github.com/MariolaFilipiak/The-second-life"
+              alt="The-second-life-link-code"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Code
+            </Buttons>
+          </ButtonsBox>
         </Box>
       </Wrapper>
       <Mockup src={mockup} />

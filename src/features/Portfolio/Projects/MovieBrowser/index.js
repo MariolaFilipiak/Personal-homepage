@@ -2,6 +2,7 @@ import React from "react";
 import {
   Arrow,
   Box,
+  ButtonsBox,
   Container,
   Header,
   Images,
@@ -19,6 +20,7 @@ import MovieImages from "./MovieBrowser.png";
 import mockup from "./movieMockup.png";
 import { Footer } from "../../../../common/Footer";
 import { Projects } from "../..";
+import { Buttons } from "../../../../common/Components/Buttons";
 
 const MovieBrowser = () => {
   return (
@@ -48,6 +50,24 @@ const MovieBrowser = () => {
             course from Youcode. The app is used to browse and search for
             movies, actors, and film crew.
           </Text>
+          <ButtonsBox>
+            <Buttons
+              href="https://mariolafilipiak.github.io/Movie-Browser/#/movies"
+              alt="movie-browser-link-demo"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </Buttons>
+            <Buttons
+              href="https://github.com/MariolaFilipiak/Movie-Browser"
+              alt="movie-browser-link-code"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Code
+            </Buttons>
+          </ButtonsBox>
         </Box>
       </Wrapper>
       <Mockup src={mockup} />
