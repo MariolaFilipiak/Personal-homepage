@@ -5,6 +5,7 @@ This is my Personal online CV. Here you will find my skills and information abou
 
 [Personal-homepage](https://mariolafilipiak.github.io/Personal-homepage/)
 
+![images](https://github.com/MariolaFilipiak/Personal-homepage/blob/main/public/README.png?raw=true)
 
 ## Technologies used
 
