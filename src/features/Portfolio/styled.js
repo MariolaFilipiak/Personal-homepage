@@ -1,43 +1,62 @@
 import styled from "styled-components";
 
-export const StyledPortfolio = styled.section`
-  margin-top: 24px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 32px;
-
-  @media (max-width: 991px) {
-    margin-bottom: 72px;
-  }
-  @media (max-width: 467px) {
-    margin-bottom: 48px;
-  }
-`;
-
-export const Title = styled.h2`
-  font-weight: 900;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  letter-spacing: 0.05em;
-  color: #6e7e91;
+export const Wrapper = styled.div`
+  width: 90%;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 `;
-export const Text = styled.p`
-  font-size: 20px;
-  text-align: center;
+export const Tile = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0px 40px 0px 40px;
+`;
+
+export const Name = styled.h3`
+  font-size: 25px;
+  font-family: monospace;
   line-height: 1.4;
   letter-spacing: 0.05em;
-  margin: 8px 0px 0px;
-  color:#6e7e91;
+  color: ${({ theme }) => theme.color.emperor};
+  margin: 5px;
+  padding: 0;
+  text-transform: uppercase;
+  @media (max-width: ${({ theme }) => theme.breakpoint.medium}) {
+    font-size: 20px;
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    text-align: center;
+    font-size: 18px;
+  }
 `;
 
-export const Icon = styled.div`
-  text-align: center;
-  margin-top: 72px;
-  margin-bottom: 12px;
-  color: blue;
+export const Images = styled.img`
+  max-width: 300px;
+  width: 50vw;
+  max-height: 100%;
+  margin-bottom: 20px;
 `;
-export const Container = styled.a`
-  text-align: center;
+export const Box = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-bottom: 60px;
+  align-items: center;
+  justify-items: stretch;
+  border-bottom: 1px solid #4f4f4f;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
 `;
