@@ -1,17 +1,34 @@
 {
   "files": {
-    "main.js": "/Personal-homepage/static/js/main.270e3860.js",
-    "static/media/foto.jpg": "/Personal-homepage/static/media/foto.6b3f3eadf8a03b745b8b.jpg",
-    "static/media/hireMe.svg": "/Personal-homepage/static/media/hireMe.26acd083a81263422cf63acc6f61a00d.svg",
-    "static/media/github.svg": "/Personal-homepage/static/media/github.a7ab05537b0b91a9e534db6e022e4d57.svg",
+    "main.js": "/Personal-homepage/static/js/main.45137166.js",
+    "static/media/movieMockup.png": "/Personal-homepage/static/media/movieMockup.41de4aaec2dd6e542827.png",
+    "static/media/MovieBrowser.png": "/Personal-homepage/static/media/MovieBrowser.2f48d10cfb3b89a88ce4.png",
+    "static/media/mockup (3).png": "/Personal-homepage/static/media/mockup (3).deb66f83a2d09e5cc430.png",
+    "static/media/mockup (2).png": "/Personal-homepage/static/media/mockup (2).e6520a1639c98a36c21b.png",
+    "static/media/ulotne.png": "/Personal-homepage/static/media/ulotne.120380689ea5de01e1b9.png",
+    "static/media/background.png": "/Personal-homepage/static/media/background.6ef226d86407b39a1b23.png",
+    "static/media/shop.png": "/Personal-homepage/static/media/shop.e9fe1e99a43a0c322344.png",
+    "static/media/ulotnechwile.png": "/Personal-homepage/static/media/ulotnechwile.04422a9be6f86ee4d64f.png",
+    "static/media/thesecondlife.png": "/Personal-homepage/static/media/thesecondlife.47b2ea822da3ec8ffe4e.png",
+    "static/media/todolist.png": "/Personal-homepage/static/media/todolist.e1f4fe8f97ed773b99c6.png",
+    "static/media/photo.png": "/Personal-homepage/static/media/photo.0f2e0b5db0e2823335b6.png",
+    "static/media/react.svg": "/Personal-homepage/static/media/react.0a72a89e7df040e9612daa85fe8fbad6.svg",
+    "static/media/redux.svg": "/Personal-homepage/static/media/redux.a5e4ed80268c093a0b0f8fe8f4b2f9e7.svg",
+    "static/media/github.svg": "/Personal-homepage/static/media/github.7db17b15c0383b73c0ecb64f8633784c.svg",
+    "static/media/figma.svg": "/Personal-homepage/static/media/figma.8caac5963ac29f158eb817887946f06e.svg",
+    "static/media/bootstrap.svg": "/Personal-homepage/static/media/bootstrap.e2620f11b658dd105a713ec5cbde3ce1.svg",
+    "static/media/javascript.svg": "/Personal-homepage/static/media/javascript.8078623baf8f928adb4779b55ba07070.svg",
     "index.html": "/Personal-homepage/index.html",
-    "static/media/error.svg": "/Personal-homepage/static/media/error.f89f9447af5c86bcdcc176682a1e13cb.svg",
+    "static/media/wordpress.svg": "/Personal-homepage/static/media/wordpress.a01394b85dd94744a8f0b88405be8e51.svg",
+    "static/media/photoshop.svg": "/Personal-homepage/static/media/photoshop.3199f8a0bddac150c029c852f8f62ead.svg",
+    "static/media/css.svg": "/Personal-homepage/static/media/css.1032d5e791b57ab5b9e90981f05fc910.svg",
+    "static/media/html.svg": "/Personal-homepage/static/media/html.c5fec8a2251355b83eb333ae9142030a.svg",
     "static/media/linkedin.svg": "/Personal-homepage/static/media/linkedin.5b18ffbdc1f96d06ff8f775e5dfcb79c.svg",
     "static/media/facebook.svg": "/Personal-homepage/static/media/facebook.155dfc8c3546b78070c395b0140e1ef5.svg",
-    "static/media/loading.svg": "/Personal-homepage/static/media/loading.63eca6f7e75e22b3e4d6c5d77764aeda.svg",
-    "main.270e3860.js.map": "/Personal-homepage/static/js/main.270e3860.js.map"
+    "static/media/typescript.svg": "/Personal-homepage/static/media/typescript.d5f2a5a6c65baced5c3937c2118ad626.svg",
+    "main.45137166.js.map": "/Personal-homepage/static/js/main.45137166.js.map"
   },
   "entrypoints": [
-    "static/js/main.270e3860.js"
+    "static/js/main.45137166.js"
   ]
 }
