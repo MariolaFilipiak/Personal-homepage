@@ -1,32 +1,28 @@
-import {
-  Container,
-  HireMeLink,
-  Info,
-  Intro,
-  MyImage,
-  Name,
-  Wrapper,
-} from "./styled";
-import mariolaFilipiakPrifile from "./foto.jpg";
-import { ReactComponent as HireMe } from "./icon/hireMe.svg";
-import { email } from "../email";
+import { Box, Container, Name, Intro, Wrapper } from "./styled";
+import { email } from "../../common/email";
+import { SocialIcons } from "../../common/SocjalIcons";
+import { Buttons } from "../../common/Components/Buttons";
 export const Header = () => {
   return (
     <Container>
-      <MyImage src={mariolaFilipiakPrifile} alt="Mariola Filipiak" />
       <Wrapper>
-        <Intro>This is</Intro>
-        <Name>Mariola Filipiak</Name>
-        <Info>
-          💻 👩🏻I have been learning programming intensively for the last year.
-          Now I am looking for my first job as a frontend developer. I know
-          React, Redux, JS, HTML5, and CSS very well. I use git and RWD on a
-          daily basis, moreover, I know the basics of UX/UII feel good in a team
-          and I care about learning new technologies
-        </Info>
-        <HireMeLink href={`mailto:${email}`} title={email}>
-          <HireMe />
-        </HireMeLink>
+        <Name>
+          Mariola
+          <br />
+          Filipiak
+        </Name>
+        <Intro>frontend developer</Intro>
+        <Box>
+          <SocialIcons />
+        </Box>
+        <Box>
+          <Buttons href="mailto:mfilipiak61@gmail.com" re>
+            Contact me
+          </Buttons>
+          <Buttons href="https://store4.gofile.io/download/b316313e-c0c1-45a6-8776-80fe6f9154c4/Mariola%20Filipiak%20CV.pdf">
+            CV
+          </Buttons>
+        </Box>
       </Wrapper>
     </Container>
   );
