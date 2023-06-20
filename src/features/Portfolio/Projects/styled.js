@@ -62,7 +62,8 @@ export const Text = styled.p`
   color: ${({ theme }) => theme.color.emperor};
   line-height: 1.4;
   font-weight: 400;
-  margin: 20px;
+  margin: 10px;
+    padding: 10px;
   max-width: 500px;
   text-align: right;
   margin-top: 0;
@@ -116,7 +117,6 @@ export const OtherProjectsBox = styled.div`
 `;
 export const Intro = styled.p`
   font-size: 3vw;
-  margin: 5px;
   font-family: monospace;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.emperor};
@@ -139,4 +139,12 @@ export const Arrow = styled(Link)`
   text-decoration: none;
   font-size: 20px;
   color: ${({ theme }) => theme.color.emperor};
+`;
+export const ButtonsBox = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
 `;
