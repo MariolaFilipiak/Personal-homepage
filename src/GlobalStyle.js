@@ -10,10 +10,10 @@ html {
   box-sizing: inherit;
 }
 body{
-  max-width: 1216px;
+width: 100%;
   margin: 0 auto;
-  background-color: #1e1e1e;
-  font-family: 'Inter';
+  background-color: ${({ theme }) => theme.color.codgray};
+  font-family: monospace;
   word-break: break-word;
 }
   `;
