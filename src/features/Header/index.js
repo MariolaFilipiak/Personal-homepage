@@ -1,5 +1,4 @@
 import { Box, Container, Name, Intro, Wrapper } from "./styled";
-import { email } from "../../common/email";
 import { SocialIcons } from "../../common/SocjalIcons";
 import { Buttons } from "../../common/Components/Buttons";
 export const Header = () => {

@@ -7,7 +7,6 @@ import {
   Intro,
   ListItem,
   ListSkills,
-  Mockup,
   OtherProjectsBox,
   Text,
   Title,

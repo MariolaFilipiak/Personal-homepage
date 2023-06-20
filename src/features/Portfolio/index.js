@@ -5,7 +5,6 @@ import ulotne from "./images/ulotne.png";
 import todolist from "./images/todolist.png";
 import { ButtonsWrapper, Button } from "../../common/Components/Buttons";
 import { ListItem, ListSkills } from "../../common/Skills/styled";
-import { Title } from "./Projects/styled";
 
 export const Projects = () => {
   return (
