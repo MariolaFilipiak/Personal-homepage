@@ -43,7 +43,7 @@ const ToDoList = () => {
           <Title>.About</Title>
           <Text>
             My to-do list . You can add tasks , delated tasks, show and hide
-            tasks and download sample tasks.
+            tasks.
           </Text>
           <ButtonsBox>
             <Buttons
