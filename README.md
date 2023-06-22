@@ -1,5 +1,5 @@
 # Description
-This is my Personal online CV. Here you will find my skills and information about what I still want to learn in the future 
+This is my Personal online CV. Here you will find my skills.
 
 ## Demo
 
