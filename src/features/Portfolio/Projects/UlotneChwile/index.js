@@ -6,8 +6,8 @@ import {
   Header,
   Images,
   Intro,
-  ListItem,
-  ListSkills,
+  Tags,
+  ListTags,
   Mockup,
   OtherProjectsBox,
   Text,
@@ -28,13 +28,13 @@ const UlotneChwile = () => {
         <Name>Ulotne Chwile Filipiak Fotografia</Name>
       </Header>
       <Wrapper>
-        <ListSkills>
-          <ListItem>React</ListItem>
-          <ListItem>CSS</ListItem>
-          <ListItem>Styled Components</ListItem>
-          <ListItem>JavaScript</ListItem>
-          <ListItem>React-router-dom</ListItem>
-        </ListSkills>
+        <ListTags>
+          <Tags>React</Tags>
+          <Tags>CSS</Tags>
+          <Tags>Styled Components</Tags>
+          <Tags>JavaScript</Tags>
+          <Tags>React-router-dom</Tags>
+        </ListTags>
         <Box>
           <Title>.About</Title>
           <Text>My personal business card as a photographer.</Text>

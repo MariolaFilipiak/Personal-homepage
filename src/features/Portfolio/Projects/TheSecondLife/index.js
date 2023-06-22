@@ -7,8 +7,8 @@ import {
   Header,
   Images,
   Intro,
-  ListItem,
-  ListSkills,
+  Tags,
+  ListTags,
   Mockup,
   OtherProjectsBox,
   Text,
@@ -32,15 +32,15 @@ const TheSecondLife = () => {
         </Name>
       </Header>
       <Wrapper>
-        <ListSkills>
-          <ListItem>React</ListItem>
-          <ListItem>CSS</ListItem>
-          <ListItem>Bootstrap</ListItem>
-          <ListItem>TypeScript</ListItem>
-          <ListItem>Redux</ListItem>
-          <ListItem>Redux-Saga</ListItem>
-          <ListItem>React-router-dom</ListItem>
-        </ListSkills>
+        <ListTags>
+          <Tags>React</Tags>
+          <Tags>CSS</Tags>
+          <Tags>Bootstrap</Tags>
+          <Tags>TypeScript</Tags>
+          <Tags>Redux</Tags>
+          <Tags>Redux-Saga</Tags>
+          <Tags>React-router-dom</Tags>
+        </ListTags>
         <Box>
           <Title>.About</Title>
           <Text>

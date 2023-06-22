@@ -7,10 +7,10 @@ import {
   Header,
   Images,
   Intro,
-  ListItem,
-  ListSkills,
+  ListTags,
   Mockup,
   OtherProjectsBox,
+  Tags,
   Text,
   Title,
   Wrapper,
@@ -33,16 +33,16 @@ const MovieBrowser = () => {
         </Name>
       </Header>
       <Wrapper>
-        <ListSkills>
-          <ListItem>React</ListItem>
-          <ListItem>CSS</ListItem>
-          <ListItem>Styled-component</ListItem>
-          <ListItem>PublicApi</ListItem>
-          <ListItem>JavaScript</ListItem>
-          <ListItem>Redux</ListItem>
-          <ListItem>Redux-Saga</ListItem>
-          <ListItem>React-router-dom</ListItem>
-        </ListSkills>
+        <ListTags>
+          <Tags>React</Tags>
+          <Tags>CSS</Tags>
+          <Tags>Styled-component</Tags>
+          <Tags>PublicApi</Tags>
+          <Tags>JavaScript</Tags>
+          <Tags>Redux</Tags>
+          <Tags>Redux-Saga</Tags>
+          <Tags>React-router-dom</Tags>
+        </ListTags>
         <Box>
           <Title>.About</Title>
           <Text>

@@ -74,7 +74,7 @@ export const Text = styled.p`
     font-size: 16px;
   }
 `;
-export const ListSkills = styled.ul`
+export const ListTags = styled.ul`
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -89,7 +89,7 @@ export const ListSkills = styled.ul`
   }
 `;
 
-export const ListItem = styled.li`
+export const Tags = styled.li`
   border: 1px solid #4f4f4f;
   border-radius: 20px;
   padding: 5px;

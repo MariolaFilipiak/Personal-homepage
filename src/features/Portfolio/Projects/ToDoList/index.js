@@ -6,8 +6,8 @@ import {
   Header,
   Images,
   Intro,
-  ListItem,
-  ListSkills,
+  Tags,
+  ListTags,
   OtherProjectsBox,
   Text,
   Title,
@@ -30,19 +30,19 @@ const ToDoList = () => {
         </Name>
       </Header>
       <Wrapper>
-        <ListSkills>
-          <ListItem>React</ListItem>
-          <ListItem>CSS</ListItem>
-          <ListItem>Styled Components</ListItem>
-          <ListItem>JavaScript</ListItem>
-          <ListItem>Redux</ListItem>
-          <ListItem>Redux-Saga</ListItem>
-          <ListItem>React-router-dom</ListItem>
-        </ListSkills>
+        <ListTags>
+          <Tags>React</Tags>
+          <Tags>CSS</Tags>
+          <Tags>Styled Components</Tags>
+          <Tags>TypeScript</Tags>
+          <Tags>Redux</Tags>
+          <Tags>Redux-Saga</Tags>
+          <Tags>React-router-dom</Tags>
+        </ListTags>
         <Box>
           <Title>.About</Title>
           <Text>
-            My to-do list . You can add tasks , delated tasks, show and hide
+            My to-do list . You can add tasks, delated tasks, show and hide
             tasks.
           </Text>
           <ButtonsBox>
