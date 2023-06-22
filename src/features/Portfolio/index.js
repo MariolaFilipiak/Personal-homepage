@@ -76,7 +76,7 @@ export const Projects = () => {
             <Tags>React</Tags>
             <Tags>CSS</Tags>
             <Tags>Styled Component</Tags>
-            <Tags>JavaScript</Tags>
+            <Tags>TypeScript</Tags>
             <Tags>Redux</Tags>
             <Tags>Redux-Saga</Tags>
             <Tags>React-router-dom</Tags>
