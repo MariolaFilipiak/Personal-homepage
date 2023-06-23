@@ -1,3 +1,5 @@
+<div align="center"><img width="50" height="50" src="https://img.icons8.com/office/30/react.png" alt="react"/> <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v2.png" alt="html-5--v2"/> <img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3"/> <img width="50" height="50" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/></div>
+
 # Description
 This is my Personal online CV. Here you will find my skills.
 
@@ -7,7 +9,7 @@ This is my Personal online CV. Here you will find my skills.
 
 ![images](https://github.com/MariolaFilipiak/Personal-homepage/blob/main/public/README.png?raw=true)
 
-<img width="50" height="50" src="https://img.icons8.com/office/30/react.png" alt="react"/> <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v2.png" alt="html-5--v2"/> <img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3"/> <img width="50" height="50" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/>
+
 
 
 
