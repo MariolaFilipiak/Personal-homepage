@@ -15,10 +15,18 @@ export const Header = () => {
           <SocialIcons />
         </Box>
         <Box>
-          <Buttons href="mailto:mfilipiak61@gmail.com" re>
+          <Buttons
+            href="mailto:mfilipiak61@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Contact me
           </Buttons>
-          <Buttons href="https://store4.gofile.io/download/b316313e-c0c1-45a6-8776-80fe6f9154c4/Mariola%20Filipiak%20CV.pdf">
+          <Buttons
+            href="https://drive.google.com/file/d/19TbPUiRHa3MT5tUlC-mFMnOpHkrmgWWJ/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             CV
           </Buttons>
         </Box>
