@@ -25,7 +25,7 @@ export const Projects = () => {
           </ListTags>
         </Tile>
         <ButtonsWrapper>
-          <Button to={"/movie-browser"}>
+          <Button to={"movie-browser"}>
           Details
           </Button>
         </ButtonsWrapper>
@@ -45,7 +45,7 @@ export const Projects = () => {
           </ListTags>
         </Tile>
         <ButtonsWrapper>
-          <Button to={"/the-second-life"}>
+          <Button to={"the-second-life"}>
           Details
           </Button>
         </ButtonsWrapper>
@@ -63,7 +63,7 @@ export const Projects = () => {
           </ListTags>
         </Tile>
         <ButtonsWrapper>
-          <Button to={"/ulotne-chwile"}>
+          <Button to={"ulotne-chwile"}>
           Details
           </Button>
         </ButtonsWrapper>

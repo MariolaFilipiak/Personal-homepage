@@ -14,11 +14,11 @@ export const App = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<PersonalHomepage />} />
-        <Route path="/movie-browser" element={<MovieBrowser />} />
-        <Route path="/the-second-life" element={<TheSecondLife />} />
-        <Route path="/ulotne-chwile" element={<UlotneChwile />} />
+        <Route path="movie-browser" element={<MovieBrowser />} />
+        <Route path="the-second-life" element={<TheSecondLife />} />
+        <Route path="ulotne-chwile" element={<UlotneChwile />} />
        
-        <Route path="/to-do-list" element={<ToDoList />} />
+        <Route path="to-do-list" element={<ToDoList />} />
       </Routes>
     </>
   );
