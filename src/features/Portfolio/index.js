@@ -3,6 +3,7 @@ import MovieBrowser from "./images/MovieBrowser.png";
 import shop from "./images/shop.png";
 import ulotne from "./images/ulotne.png";
 import todolist from "./images/todolist.png";
+import newsApp from "./images/newsApp.png"
 import { ButtonsWrapper, Button } from "../../common/Components/Buttons";
 
 export const Projects = () => {
@@ -84,6 +85,24 @@ export const Projects = () => {
         </Tile>
         <ButtonsWrapper>
           <Button to={"/to-do-list"}>
+            Details
+          </Button>
+        </ButtonsWrapper>
+      </Box>
+      <Box>
+        <Images src={newsApp} />
+        <Tile>
+          <Name>News App</Name>
+          <ListTags>
+            <Tags>React</Tags>
+            <Tags>CSS</Tags>
+            <Tags>Styled Component</Tags>
+            <Tags>TypeScript</Tags>
+            <Tags>TanStack Query</Tags>
+          </ListTags>
+        </Tile>
+        <ButtonsWrapper>
+          <Button to={"/news-app"}>
             Details
           </Button>
         </ButtonsWrapper>
