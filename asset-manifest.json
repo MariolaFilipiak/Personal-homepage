@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Personal-homepage/static/js/main.e408dd91.js",
+    "main.js": "/Personal-homepage/static/js/main.f535622d.js",
     "static/media/movieMockup.png": "/Personal-homepage/static/media/movieMockup.41de4aaec2dd6e542827.png",
     "static/media/MovieBrowser.png": "/Personal-homepage/static/media/MovieBrowser.2f48d10cfb3b89a88ce4.png",
     "static/media/mockup (3).png": "/Personal-homepage/static/media/mockup (3).deb66f83a2d09e5cc430.png",
@@ -9,6 +9,8 @@
     "static/media/background.png": "/Personal-homepage/static/media/background.6ef226d86407b39a1b23.png",
     "static/media/shop.png": "/Personal-homepage/static/media/shop.e9fe1e99a43a0c322344.png",
     "static/media/ulotnechwile.png": "/Personal-homepage/static/media/ulotnechwile.04422a9be6f86ee4d64f.png",
+    "static/media/News-App.png": "/Personal-homepage/static/media/News-App.fe873f9b8279f8994f43.png",
+    "static/media/newsApp.png": "/Personal-homepage/static/media/newsApp.50edba2b3cb6726afc0d.png",
     "static/media/thesecondlife.png": "/Personal-homepage/static/media/thesecondlife.47b2ea822da3ec8ffe4e.png",
     "static/media/todolist.png": "/Personal-homepage/static/media/todolist.e1f4fe8f97ed773b99c6.png",
     "static/media/photo.png": "/Personal-homepage/static/media/photo.0f2e0b5db0e2823335b6.png",
@@ -26,9 +28,9 @@
     "static/media/linkedin.svg": "/Personal-homepage/static/media/linkedin.5b18ffbdc1f96d06ff8f775e5dfcb79c.svg",
     "static/media/facebook.svg": "/Personal-homepage/static/media/facebook.155dfc8c3546b78070c395b0140e1ef5.svg",
     "static/media/typescript.svg": "/Personal-homepage/static/media/typescript.d5f2a5a6c65baced5c3937c2118ad626.svg",
-    "main.e408dd91.js.map": "/Personal-homepage/static/js/main.e408dd91.js.map"
+    "main.f535622d.js.map": "/Personal-homepage/static/js/main.f535622d.js.map"
   },
   "entrypoints": [
-    "static/js/main.e408dd91.js"
+    "static/js/main.f535622d.js"
   ]
 }
